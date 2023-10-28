@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/bintang"
+        android:layout_width="334dp"
+        android:layout_height="1002dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bintang"/>
+
+    <View
+        android:id="@+id/ellipse_2"
+        android:layout_width="511dp"
+        android:layout_height="355dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-7dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-120dp"
+        android:background="@drawable/ellipse_2" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="44dp"
+        android:layout_height="25.79dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21.1dp"
+        android:background="@drawable/arrow"/>
+
+    <View
+        android:id="@+id/rectangle_kuning"
+        android:layout_width="217dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/rectangle_kuning" />
+
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="141dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/rectangle_putih" />
+
+    <View
+        android:id="@+id/parent"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="305dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/parent" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="56dp"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="34dp"
+        android:text="@string/hello"
+        android:textAppearance="@style/hello"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:text="@string/username_librarygame"
+        android:textAppearance="@style/username_librarygame"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/library_game"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="121dp"
+        android:text="@string/librarygame"
+        android:textAppearance="@style/librarygame"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/vector_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="211dp"
+        android:background="@drawable/bg_library_game" />
+
+    <View
+        android:id="@+id/vector_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="236dp"
+        android:background="@drawable/bg_library_game2" />
+
+    <View
+        android:id="@+id/bg_gambar_game1"
+        android:layout_width="175dp"
+        android:layout_height="103.58dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="219.67dp"
+        android:background="@drawable/bg_gambar_game" />
+
+    <View
+        android:id="@+id/gambar_game1"
+        android:layout_width="160dp"
+        android:layout_height="91.67dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22.42dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="226.09dp"
+        android:background="@drawable/gambar_game1" />
+
+    <View
+        android:id="@+id/bg_gender1"
+        android:layout_width="23.83dp"
+        android:layout_height="26.58dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="223.34dp"
+        android:background="@drawable/bg_gender" />
+
+    <View
+        android:id="@+id/gender_perempuan1"
+        android:layout_width="18.33dp"
+        android:layout_height="18.33dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="168dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="227.92dp"
+        android:background="@drawable/gender_perempuan" />
+
+    <View
+        android:id="@+id/bg_nama_game1"
+        android:layout_width="170dp"
+        android:layout_height="26.58dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19.67dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="292.09dp"
+        android:background="@drawable/bg_nama_game" />
+
+    <TextView
+        android:id="@+id/nama_game1"
+        android:layout_width="170dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="296.96dp"
+        android:text="@string/nama_game"
+        android:textAppearance="@style/nama_game"
+        android:gravity="center"/>
+
+    <View
+        android:id="@+id/bg_gambar_game2"
+        android:layout_width="175dp"
+        android:layout_height="104.93dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="219dp"
+        android:background="@drawable/bg_gambar_game" />
+
+    <View
+        android:id="@+id/gambar_game2"
+        android:layout_width="160dp"
+        android:layout_height="92.86dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="227dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="225.5dp"
+        android:background="@drawable/gambar_game2" />
+
+    <View
+        android:id="@+id/bg_gender2"
+        android:layout_width="24.14dp"
+        android:layout_height="26.93dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="370dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="222.71dp"
+        android:background="@drawable/bg_gender" />
+
+    <View
+        android:id="@+id/gender_lakilaki1"
+        android:layout_width="14.86dp"
+        android:layout_height="14.86dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="375dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="229.21dp"
+        android:background="@drawable/gender_lakilaki" />
+
+    <View
+        android:id="@+id/bg_nama_game2"
+        android:layout_width="170dp"
+        android:layout_height="26.93dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="292.09dp"
+        android:background="@drawable/bg_nama_game" />
+
+    <TextView
+        android:id="@+id/nama_game2"
+        android:layout_width="170dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="225dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="296.96dp"
+        android:text="@string/nama_game"
+        android:textAppearance="@style/nama_game"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/bg_gambar_game3"
+        android:layout_width="175dp"
+        android:layout_height="103.58dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="339.64dp"
+        android:background="@drawable/bg_gambar_game" />
+
+    <View
+        android:id="@+id/gambar_game3"
+        android:layout_width="160dp"
+        android:layout_height="91.67dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22.42dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="346.05dp"
+        android:background="@drawable/gambar_game1" />
+
+    <View
+        android:id="@+id/bg_gender3"
+        android:layout_width="23.83dp"
+        android:layout_height="26.58dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="343.3dp"
+        android:background="@drawable/bg_gender" />
+
+    <View
+        android:id="@+id/gender_perempuan2"
+        android:layout_width="18.33dp"
+        android:layout_height="18.33dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="168dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="347.89dp"
+        android:background="@drawable/gender_perempuan" />
+
+    <View
+        android:id="@+id/bg_nama_game3"
+        android:layout_width="170dp"
+        android:layout_height="26.58dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19.67dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="412.05dp"
+        android:background="@drawable/bg_nama_game" />
+
+    <TextView
+        android:id="@+id/nama_game3"
+        android:layout_width="170dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="416.93dp"
+        android:text="@string/nama_game"
+        android:textAppearance="@style/nama_game"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/bg_gambar_game4"
+        android:layout_width="175dp"
+        android:layout_height="104.93dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="346.05dp"
+        android:background="@drawable/bg_gambar_game" />
+
+    <View
+        android:id="@+id/gambar_game4"
+        android:layout_width="160dp"
+        android:layout_height="92.86dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="227dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="346.05dp"
+        android:background="@drawable/gambar_game2" />
+
+    <View
+        android:id="@+id/bg_gender4"
+        android:layout_width="24.14dp"
+        android:layout_height="26.93dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="370dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="343.3dp"
+        android:background="@drawable/bg_gender" />
+
+    <View
+        android:id="@+id/gender_lakilaki2"
+        android:layout_width="14.86dp"
+        android:layout_height="14.86dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="375dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="347.89dp"
+        android:background="@drawable/gender_lakilaki" />
+
+    <View
+        android:id="@+id/bg_nama_game4"
+        android:layout_width="170dp"
+        android:layout_height="26.93dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="412.65dp"
+        android:background="@drawable/bg_nama_game" />
+
+    <TextView
+        android:id="@+id/nama_game4"
+        android:layout_width="170dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="225dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="416.93dp"
+        android:text="@string/nama_game"
+        android:textAppearance="@style/nama_game"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/bg_gambar_game5"
+        android:layout_width="170dp"
+        android:layout_height="103.58dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="457.64dp"
+        android:background="@drawable/bg_gambar_game"/>
+
+    <View
+        android:id="@+id/gambar_game5"
+        android:layout_width="160dp"
+        android:layout_height="91.67dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22.42dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="464.05dp"
+        android:background="@drawable/gambar_game1" />
+
+    <View
+        android:id="@+id/bg_gender5"
+        android:layout_width="23.83dp"
+        android:layout_height="26.58dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="461.3dp"
+        android:background="@drawable/bg_gender" />
+
+    <View
+        android:id="@+id/gender_perempuan3"
+        android:layout_width="18.33dp"
+        android:layout_height="18.33dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="168dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="465.89dp"
+        android:background="@drawable/gender_perempuan" />
+
+    <View
+        android:id="@+id/bg_nama_game5"
+        android:layout_width="170dp"
+        android:layout_height="26.58dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19.67dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="530.05dp"
+        android:background="@drawable/bg_nama_game" />
+
+    <TextView
+        android:id="@+id/nama_game5"
+        android:layout_width="170dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="534.93dp"
+        android:text="@string/nama_game"
+        android:textAppearance="@style/nama_game"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/bg_gambar_game6"
+        android:layout_width="175dp"
+        android:layout_height="104.93dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="457.64dp"
+        android:background="@drawable/bg_gambar_game" />
+
+    <View
+        android:id="@+id/gambar_game6"
+        android:layout_width="160dp"
+        android:layout_height="92.86dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="227dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="464.05dp"
+        android:background="@drawable/gambar_game2" />
+
+    <View
+        android:id="@+id/bg_gender6"
+        android:layout_width="24.14dp"
+        android:layout_height="26.93dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="370dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="460.68dp"
+        android:background="@drawable/bg_gender" />
+
+    <View
+        android:id="@+id/gender_lakilaki3"
+        android:layout_width="14.86dp"
+        android:layout_height="14.86dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="375dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="467.18dp"
+        android:background="@drawable/gender_lakilaki" />
+
+    <View
+        android:id="@+id/bg_nama_game6"
+        android:layout_width="170dp"
+        android:layout_height="26.93dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="530.05dp"
+        android:background="@drawable/bg_nama_game" />
+
+    <TextView
+        android:id="@+id/nama_game6"
+        android:layout_width="170dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="225dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="534.93dp"
+        android:text="@string/nama_game"
+        android:textAppearance="@style/nama_game"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/bg_gambar_game7"
+        android:layout_width="175dp"
+        android:layout_height="103.58dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="577.64dp"
+        android:background="@drawable/bg_gambar_game" />
+
+    <View
+        android:id="@+id/gambar_game7"
+        android:layout_width="160dp"
+        android:layout_height="91.67dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22.42dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="584.05dp"
+        android:background="@drawable/gambar_game1" />
+
+    <View
+        android:id="@+id/bg_gender7"
+        android:layout_width="23.83dp"
+        android:layout_height="26.58dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="581.3dp"
+        android:background="@drawable/bg_gender" />
+
+    <View
+        android:id="@+id/gender_perempuan4"
+        android:layout_width="18.33dp"
+        android:layout_height="18.33dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="168dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="585.59dp"
+        android:background="@drawable/gender_perempuan" />
+
+    <View
+        android:id="@+id/bg_nama_game7"
+        android:layout_width="170dp"
+        android:layout_height="26.58dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19.67dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="650.05dp"
+        android:background="@drawable/bg_nama_game" />
+
+    <TextView
+        android:id="@+id/nama_game7"
+        android:layout_width="170dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="654.93dp"
+        android:text="@string/nama_game"
+        android:textAppearance="@style/nama_game"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/bg_gambar_game8"
+        android:layout_width="175dp"
+        android:layout_height="104.93dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="577.64dp"
+        android:background="@drawable/bg_gambar_game" />
+
+    <View
+        android:id="@+id/gambar_game8"
+        android:layout_width="160dp"
+        android:layout_height="92.86dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="227dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="584.05dp"
+        android:background="@drawable/gambar_game2" />
+
+    <View
+        android:id="@+id/bg_gender8"
+        android:layout_width="24.14dp"
+        android:layout_height="26.93dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="370dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="581.3dp"
+        android:background="@drawable/bg_gender" />
+
+    <View
+        android:id="@+id/gender_lakilaki4"
+        android:layout_width="14.86dp"
+        android:layout_height="14.86dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="375dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="585.59dp"
+        android:background="@drawable/gender_lakilaki" />
+
+    <View
+        android:id="@+id/bg_nama_game8"
+        android:layout_width="170dp"
+        android:layout_height="26.93dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="654.93dp"
+        android:background="@drawable/bg_nama_game" />
+
+    <TextView
+        android:id="@+id/nama_game8"
+        android:layout_width="170dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="225dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="654.93dp"
+        android:text="@string/nama_game"
+        android:textAppearance="@style/nama_game"
+        android:gravity="center" />
+
+</RelativeLayout>

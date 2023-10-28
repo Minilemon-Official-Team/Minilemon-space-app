@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseCustomizeProfile"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/bintang"
+        android:layout_width="334dp"
+        android:layout_height="1002dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bintang"/>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="44dp"
+        android:layout_height="25.79dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21.1dp"
+        android:background="@drawable/arrow"/>
+
+    <TextView
+        android:id="@+id/sesuaikan_p"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="101dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/sesuaikan_p"
+        android:textAppearance="@style/sesuaikan_p" />
+
+    <ImageView
+        android:id="@+id/bg_kuning"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/bg_kuning"/>
+
+    <ImageView
+        android:id="@+id/rectangle_db"
+        android:layout_width="75dp"
+        android:layout_height="6dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="241dp"
+        android:background="@drawable/rectangle_db"/>
+
+    <TextView
+        android:id="@+id/profil_ortu"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="268dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/profil_ortu"
+        android:textAppearance="@style/profil_ortu" />
+
+    <ImageView
+        android:id="@+id/bg_kuning_db"
+        android:layout_width="360dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/bg_kuning_db"/>
+
+    <ImageView
+        android:id="@+id/bg_putih_db"
+        android:layout_width="189dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/bg_putih_db"/>
+
+    <ImageView
+        android:id="@+id/parent"
+        android:layout_width="92dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/parent"/>
+
+    <TextView
+        android:id="@+id/name_here"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="332dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/name_here"
+        android:textAppearance="@style/name_here" />
+
+    <TextView
+        android:id="@+id/ayah"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="227dp"
+        android:layout_marginTop="365dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/ayah"
+        android:textAppearance="@style/ayah" />
+
+    <TextView
+        android:id="@+id/profil_anak"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="474dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/profil_anak"
+        android:textAppearance="@style/profil_anak" />
+
+    <ImageView
+        android:id="@+id/bg_kuning_anak"
+        android:layout_width="360dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/bg_kuning_db"/>
+
+    <ImageView
+        android:id="@+id/bg_putih_anak"
+        android:layout_width="189dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="531dp"
+        android:background="@drawable/bg_putih_db"/>
+
+    <ImageView
+        android:id="@+id/kids"
+        android:layout_width="92dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="530dp"
+        android:background="@drawable/kids"/>
+
+    <TextView
+        android:id="@+id/name_here_anak"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="542dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/name_here"
+        android:textAppearance="@style/name_here" />
+
+    <TextView
+        android:id="@+id/usia_5_"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="579dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/usia_5_"
+        android:textAppearance="@style/usia_5_" />
+
+</RelativeLayout>

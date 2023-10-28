@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="name_here">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="ayah">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="dashboard">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="most_time_p">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="some_id">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+    <style name="education_res">
+    <item name="android:textSize">13sp</item>
+    <item name="android:letterSpacing">0.12</item>
+    <item name="android:textColor">#1D1A67</item>
+    <item name="android:shadowColor">#40000000</item>
+    <item name="android:shadowDx">0</item>
+    <item name="android:shadowDy">2</item>
+    <item name="android:shadowRadius">2</item>
+    <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="review">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+    <style name="library_game">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="sesuaikan_p">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="profil_ortu">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="profil_anak">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="usia_5_">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="usia">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="parental_co">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="app_set">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="faq">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="get_help">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="show_more">
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="waktu_tersimpan">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#FF8A00</item>
+        <item name="android:shadowColor">#26000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="some_id_waktu_tersimpan">
+        <item name="android:textSize">36sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#FF8A00</item>
+        <item name="android:shadowColor">#26000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="waktu_terbanyak">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="some_id_waktu_terbanyak">
+        <item name="android:textSize">36sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="waktu_bermain">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#FD2E71</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="some_id_waktu_bermain">
+        <item name="android:textSize">36sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#FD2E71</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="waktu_belajar">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#258413</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="some_id_waktu_belajar">
+        <item name="android:textSize">36sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#44B42E</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="riwayat">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="game_playing">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#FE2A74</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="some_id_waktu">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="learning1">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#44B42E</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="username_librarygame">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="hello">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#FD2E71</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="librarygame">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="nama_game">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="nama_game_detail">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="deskripsi_game">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+    <style name="most_game_playing">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="hari_ini">
+        <item name="android:textSize">30sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#FF8A00</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="number_daily">
+        <item name="android:textSize">27sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="waktu1">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#FD2E71</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="nama_game_disini">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">#1D1A67</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+</resources>

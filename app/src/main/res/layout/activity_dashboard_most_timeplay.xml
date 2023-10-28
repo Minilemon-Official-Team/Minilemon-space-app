@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardMostTimePlay"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/bintang"
+        android:layout_width="334dp"
+        android:layout_height="1002dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/bintang" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="44dp"
+        android:layout_height="25.79dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21.1dp"
+        android:background="@drawable/arrow"/>
+
+    <View
+        android:id="@+id/planet1"
+        android:layout_width="110dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="119dp"
+        android:background="@drawable/planet1" />
+
+    <View
+        android:id="@+id/bg_waktu_tersimpan"
+        android:layout_width="284dp"
+        android:layout_height="97dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="117dp"
+        android:background="@drawable/bg_waktu1_kanan" />
+
+    <TextView
+        android:id="@+id/waktu_tersimpan"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="175dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="126dp"
+        android:text="@string/waktu_tersimpan"
+        android:textAppearance="@style/waktu_tersimpan"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/bg_waktu_tersimpan2"
+        android:layout_width="284dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="159dp"
+        android:background="@drawable/bg_waktu2_kanan" />
+
+    <TextView
+        android:id="@+id/some_id_waktu_tersimpan"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="195dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="162dp"
+        android:text="@string/some_id_waktu_tersimpan"
+        android:textAppearance="@style/some_id_waktu_tersimpan"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/planet2"
+        android:layout_width="100dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="285dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="242dp"
+        android:background="@drawable/planet2"/>
+
+    <View
+        android:id="@+id/bg_waktu_terbanyak"
+        android:layout_width="284dp"
+        android:layout_height="97dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="234dp"
+        android:background="@drawable/bg_waktu1_kiri" />
+
+    <TextView
+        android:id="@+id/waktu_terbanyak"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:text="@string/waktu_terbanyak"
+        android:textAppearance="@style/waktu_terbanyak"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/bg_waktu_terbanyak2"
+        android:layout_width="284dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="276dp"
+        android:background="@drawable/bg_waktu2_kiri" />
+
+    <TextView
+        android:id="@+id/some_id_waktu_terbanyak"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="278dp"
+        android:text="@string/some_id_waktu_terbanyak"
+        android:textAppearance="@style/some_id_waktu_terbanyak"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/planet3"
+        android:layout_width="110dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="353dp"
+        android:background="@drawable/planet1" />
+
+    <View
+        android:id="@+id/bg_waktu_bermain"
+        android:layout_width="284dp"
+        android:layout_height="97dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/bg_waktu1_kanan" />
+
+    <TextView
+        android:id="@+id/waktu_bermain"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="185dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="358dp"
+        android:text="@string/waktu_bermain"
+        android:textAppearance="@style/waktu_bermain"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/bg_waktu_bermain2"
+        android:layout_width="284dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="392dp"
+        android:background="@drawable/bg_waktu2_kanan" />
+
+    <TextView
+        android:id="@+id/some_id_waktu_bermain"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="195dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="393dp"
+        android:text="@string/some_id_waktu_bermain"
+        android:textAppearance="@style/some_id_waktu_bermain"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/planet4"
+        android:layout_width="100dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="285dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/planet2"/>
+
+    <View
+        android:id="@+id/bg_waktu_belajar"
+        android:layout_width="284dp"
+        android:layout_height="97dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="465dp"
+        android:background="@drawable/bg_waktu1_kiri" />
+
+    <TextView
+        android:id="@+id/waktu_belajar"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="471dp"
+        android:text="@string/waktu_belajar"
+        android:textAppearance="@style/waktu_belajar"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/bg_waktu_belajar2"
+        android:layout_width="284dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="507dp"
+        android:background="@drawable/bg_waktu2_kiri" />
+
+    <TextView
+        android:id="@+id/some_id_waktu_belajar"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="506dp"
+        android:text="@string/some_id_waktu_belajar"
+        android:textAppearance="@style/some_id_waktu_belajar"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/bg_riwayat"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/bg_riwayat"/>
+
+    <View
+        android:id="@+id/rectangle_riwayat"
+        android:layout_width="75dp"
+        android:layout_height="6dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/rectangle_riwayat" />
+
+    <TextView
+        android:id="@+id/riwayat"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="140dp"
+        android:text="@string/riwayat"
+        android:textAppearance="@style/riwayat"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/bg_isi_history1"
+        android:layout_width="370dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/bg_isi_history" />
+
+    <View
+        android:id="@+id/logo_game1"
+        android:layout_width="31.35dp"
+        android:layout_height="28.8dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="195dp"
+        android:background="@drawable/logo_game"/>
+
+    <TextView
+        android:id="@+id/game_playing1"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="198dp"
+        android:gravity="center"
+        android:text="@string/game_playing"
+        android:textAppearance="@style/game_playing" />
+
+    <TextView
+        android:id="@+id/some_id_game_playing1"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="198dp"
+        android:gravity="center"
+        android:text="@string/some_id_game_playing"
+        android:textAppearance="@style/some_id_waktu" />
+
+    <View
+        android:id="@+id/bg_isi_history2"
+        android:layout_width="370dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/bg_isi_history" />
+
+    <View
+        android:id="@+id/logo_learning1"
+        android:layout_width="31.35dp"
+        android:layout_height="28.8dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="245dp"
+        android:background="@drawable/logo_learning"/>
+
+    <TextView
+        android:id="@+id/learning1"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="245dp"
+        android:text="@string/learning1"
+        android:textAppearance="@style/learning1"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/some_id_learning1"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="285dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="245dp"
+        android:text="@string/some_id_learning1"
+        android:textAppearance="@style/some_id_waktu"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/bg_isi_history3"
+        android:layout_width="370dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/bg_isi_history" />
+
+    <View
+        android:id="@+id/logo_game2"
+        android:layout_width="31.35dp"
+        android:layout_height="28.8dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="295dp"
+        android:background="@drawable/logo_game"/>
+
+    <TextView
+        android:id="@+id/game_playing2"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="295dp"
+        android:gravity="center"
+        android:text="@string/game_playing"
+        android:textAppearance="@style/game_playing" />
+
+    <TextView
+        android:id="@+id/some_id_game_playing2"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="295dp"
+        android:gravity="center"
+        android:text="@string/some_id_game_playing"
+        android:textAppearance="@style/some_id_waktu" />
+
+    <View
+        android:id="@+id/bg_isi_history4"
+        android:layout_width="370dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/bg_isi_history" />
+
+    <View
+        android:id="@+id/logo_learning2"
+        android:layout_width="31.35dp"
+        android:layout_height="28.8dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="345dp"
+        android:background="@drawable/logo_learning"/>
+
+    <TextView
+        android:id="@+id/learning2"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="345dp"
+        android:text="@string/learning1"
+        android:textAppearance="@style/learning1"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/some_id_learning2"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="285dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="345dp"
+        android:text="@string/some_id_learning1"
+        android:textAppearance="@style/some_id_waktu"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/bg_isi_history5"
+        android:layout_width="370dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/bg_isi_history" />
+
+    <View
+        android:id="@+id/logo_game3"
+        android:layout_width="31.35dp"
+        android:layout_height="28.8dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="395dp"
+        android:background="@drawable/logo_game"/>
+
+    <TextView
+        android:id="@+id/game_playing3"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="395dp"
+        android:gravity="center"
+        android:text="@string/game_playing"
+        android:textAppearance="@style/game_playing" />
+
+    <TextView
+        android:id="@+id/some_id_game_playing3"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="395dp"
+        android:gravity="center"
+        android:text="@string/some_id_game_playing"
+        android:textAppearance="@style/some_id_waktu" />
+
+    <View
+        android:id="@+id/bg_isi_history6"
+        android:layout_width="370dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/bg_isi_history" />
+
+    <View
+        android:id="@+id/logo_learning3"
+        android:layout_width="31.35dp"
+        android:layout_height="28.8dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="445dp"
+        android:background="@drawable/logo_learning"/>
+
+    <TextView
+        android:id="@+id/learning3"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="445dp"
+        android:text="@string/learning1"
+        android:textAppearance="@style/learning1"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/some_id_learning3"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="285dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="445dp"
+        android:text="@string/some_id_learning1"
+        android:textAppearance="@style/some_id_waktu"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/bg_isi_history7"
+        android:layout_width="370dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/bg_isi_history" />
+
+    <View
+        android:id="@+id/logo_game4"
+        android:layout_width="31.35dp"
+        android:layout_height="28.8dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="495dp"
+        android:background="@drawable/logo_game"/>
+
+    <TextView
+        android:id="@+id/game_playing4"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="495dp"
+        android:gravity="center"
+        android:text="@string/game_playing"
+        android:textAppearance="@style/game_playing" />
+
+    <TextView
+        android:id="@+id/some_id_game_playing4"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="495dp"
+        android:gravity="center"
+        android:text="@string/some_id_game_playing"
+        android:textAppearance="@style/some_id_waktu" />
+
+    <View
+        android:id="@+id/bg_isi_history8"
+        android:layout_width="370dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/bg_isi_history" />
+
+    <View
+        android:id="@+id/logo_learning4"
+        android:layout_width="31.35dp"
+        android:layout_height="28.8dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="545dp"
+        android:background="@drawable/logo_learning"/>
+
+    <TextView
+        android:id="@+id/learning4"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="545dp"
+        android:text="@string/learning1"
+        android:textAppearance="@style/learning1"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/some_id_learning4"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="285dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="545dp"
+        android:text="@string/some_id_learning1"
+        android:textAppearance="@style/some_id_waktu"
+        android:gravity="center" />
+
+</RelativeLayout>

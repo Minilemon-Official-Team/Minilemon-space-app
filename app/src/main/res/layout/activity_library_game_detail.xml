@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/bintang"
+        android:layout_width="334dp"
+        android:layout_height="1002dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bintang"/>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="44dp"
+        android:layout_height="25.79dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21.1dp"
+        android:background="@drawable/arrow"/>
+
+    <View
+        android:id="@+id/rectangle_kuning"
+        android:layout_width="217dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/rectangle_kuning" />
+
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="141dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/rectangle_putih" />
+
+    <View
+        android:id="@+id/parent"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="305dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/parent" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="56dp"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp"
+        android:text="@string/hello"
+        android:textAppearance="@style/hello"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="62dp"
+        android:text="@string/username_librarygame"
+        android:textAppearance="@style/username_librarygame"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/group_96"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/planet_game" />
+
+    <View
+        android:id="@+id/bg_deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/bg_deskripsi_game" />
+
+    <View
+        android:id="@+id/frame_thumb"
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/profile_game"/>
+
+    <View
+        android:id="@+id/group_97"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="355dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/planet_game2"/>
+
+    <TextView
+        android:id="@+id/nama_game_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="370dp"
+        android:text="@string/nama_game_detail"
+        android:textAppearance="@style/nama_game_detail"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/deskripsi_game"
+        android:layout_width="310dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="415dp"
+        android:text="@string/deskripsi_game"
+        android:textAppearance="@style/deskripsi_game"
+        android:gravity="top" />
+
+    <Button
+        android:id="@+id/instal_"
+        android:layout_width="390dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="665dp"
+        android:background="@drawable/instal" />
+
+</RelativeLayout>
